@@ -55,7 +55,7 @@ int main()
 	short map[COL_MAX][COL_MAX];
 	int size = 15, mine = 40, game_ret;
 	h = GetStdHandle(STD_OUTPUT_HANDLE);
-	system("chcp 65001");
+	//system("chcp 65001");
 	system("cls");
 	system("title 扫雷 - By AkashiNeko");
 	memset(map, 0, sizeof(map)); //初始化
